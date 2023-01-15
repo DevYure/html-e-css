@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimidia</title>
+</head>
+<body>
+    <h1>
+        Famos falar sobre imagens dinaminas condeusamos a tag picture para fazer isso
+    </h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:  1050px)" srcset="imagens/imagen-M.png" type="image/png">
+        <img src="imagens/imagen-G.png" alt="a imagen fexivel">
+    </picture>
+    <h1>
+        Vamos Falar sobre audio
+    </h1>
+
+    <h2>
+        vamos aprender como colocar audios no seu site
+    </h2>
+    <audio preload="metadata" controls loop >
+        <source src="audios/Ice & Fire - King Canyon.mp3" type="audio/mp3">
+        <source src="audios/Ice & Fire - King Canyon.OGG" type="audio/OGG">
+        <source src="audios/Ice & Fire - King Canyon.wav" type="audio/wav">
+    </audio>
+    <p><a href="audios/Ice & Fire - King Canyon.mp3" download="Ice & Fire - King Canyon.mp3" type="audio/mpeg">infelimente seu navegador não reprodíz audio</a></p>
+    <video controls height="360" loop autoplay>
+        <source src="videos/meuvideo.mp4" type="video/mp4">
+        <source src="videos/meuvideo.webm" type="video/webm">
+        <source src="videos/Pexels-Anthony-Shkraba-Production-8042696.mkv" type="video/mkv">
+        <p>
+            seu navegador não e compativel com videos
+        </p>
+    </video>
+    <!--mp3 wav OGG-->
+    <h1>Incorporando video do youtybe</h1>
+
+    <iframe width="560" height="360" src="https://www.youtube.com/embed/5e2pk6sBxHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>
+        reproduzindo video do vimeo
+    </h1>
+
+    <iframe src="https://player.vimeo.com/video/779156339?h=fb85bf5bec&badge=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
