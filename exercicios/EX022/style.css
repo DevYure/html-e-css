@@ -1,14 +1,45 @@
 @charset "UTF-8";
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(-120deg,#4D4D4D,#595350);
-    margin: 0px;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-head {
-    background-color: black;
-    margin: 10px;
-    padding: 10px;
+div.tiposdefundo {
+    border: 5px solid green;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
 }
 
+#A1 {
+    background-color: lightgreen;
+}
+
+#A2 {
+    background-image:linear-gradient(to bottom,purple,green);
+}
+
+#A3 {
+    background-image: url(imagens/pattern004.png);
+}
+
+#A4 {
+background-image: url(animes/hashirama.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#A5 {
+    background-image: url(animes/tobirama.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#A6 {
+    background-image: url(animes/hiruzen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
