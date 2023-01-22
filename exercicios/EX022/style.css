@@ -36,13 +36,13 @@ background-position: center center;
 #A5 {
     background-image: url(animes/tobirama.png);
     background-repeat: no-repeat;
-    background-size: 100vh;
+    background-size: cover;
     background-position: center center;
 }
 
 #A6 {
     background-image: url(animes/hiruzen.png);
     background-repeat: no-repeat;
-    background-size: 100vh;
+    background-size: cover;
     background-position: center center;
 }
