@@ -1,0 +1,239 @@
+@charset "UTF-*";
+@font-face {
+    font-family: 'go3v2';
+    src: url(fontes/go3v2.ttf) format(TrueType);
+}
+@font-face {
+    font-family: 'waltograph42';
+    src: url(fontes/waltograph42.otf) format(OpenType);
+}
+@font-face {
+    font-family:'waltographUI';
+    src: url(fontes/waltographUI.ttf) format(TrueType);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1 {
+    color: white;
+    font-size: 4em;
+    font-family: go3v2;
+    font-weight: lighter;
+}
+
+header > p {
+    color: white;
+    font-size: 3em;
+    font-family: waltograph42;
+    font-weight: lighter;
+}
+
+.texto{
+    height: 300;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 450px;
+    position: relative;
+}
+
+.texto > h2{
+    color: black;
+    font-size: 4em;
+    font-family: go3v2;
+    font-weight: lighter;
+}
+
+.texto > p{
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    height: 200px;
+    font-size: 2em;
+}
+
+.img{
+    background-image: url(imagesn/hashirama.jpg);
+    width: 100%;
+    height: 600px;
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: cover;
+ background-attachment: fixed;
+ position: relative;
+}
+
+.img {
+    line-height: 450px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-family: go3v2;
+}
+
+.história{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 450px;
+    position: absolute;
+    background-color: white;
+}
+
+.hokage {
+    font-size: 3em;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.historia{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.img2 {
+ background-image: url(imagesn/tobirama.jpg);
+ width: 100%;
+ height: 600px;
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: cover;
+ background-attachment: fixed;
+ position: relative;
+}
+
+.img2 {
+    line-height: 450px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-family: go3v2;
+}
+
+.img3 {
+    background-image: url(imagesn/Hiruzen.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.img3 {
+    line-height: 450px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-family: go3v2;
+}
+
+.img4 {
+    background-image: url(imagesn/minato.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.img4 {
+    line-height: 450px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-family: go3v2;
+}
+
+.img5 {
+    background-image: url(imagesn/Tsunaade.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.img5 {
+    line-height: 450px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-family: go3v2;
+}
+
+.img6 {
+    background-image: url(imagesn/Kakashi.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.img6 {
+    line-height: 450px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-family: go3v2;
+}
+
+.img7 {
+    background-image: url(imagesn/naruto.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.img7 {
+    line-height: 450px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-family: go3v2;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
